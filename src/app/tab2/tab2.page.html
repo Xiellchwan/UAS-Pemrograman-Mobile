@@ -1,0 +1,31 @@
+<ion-content>
+  <div class="scroll-content">
+    <div class="ion-padding">
+      <ion-searchbar
+      [(ngModel)]="searchTerm" 
+      (ionInput)="searchPenduduk()"
+      placeholder="Masukkan NIK penduduk..."
+      search-icon="search-outline">
+    </ion-searchbar>
+      <ion-card *ngFor="let penduduk of penduduks">
+        <ion-card-content>
+          <div class="name-container">
+            <div class="text1">{{penduduk.nama}}</div>
+            <div class="action-buttons">
+              <ion-icon name="eye-outline" class="action-icon view" (click)="openModal(penduduk)"></ion-icon>
+              <ion-icon name="trash-outline" class="action-icon delete" (click)="hapusPenduduk(penduduk.id)"></ion-icon>
+            </div>
+          </div>
+          <div class="text">
+            <ion-icon name="card-outline"></ion-icon>
+            <span>{{penduduk.nik}}</span>
+          </div>
+          <div class="text">
+            <ion-icon name="calendar-outline"></ion-icon>
+            <span>{{penduduk.tempat_tgl_lahir}}</span>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

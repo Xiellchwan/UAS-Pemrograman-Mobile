@@ -1,0 +1,114 @@
+ion-content{
+  --background: linear-gradient(135deg, #1b3c5b, #3b7a9d, #7eb4d0); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.header-section {
+  padding: 30px 20px;
+  text-align: center;
+  
+  h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  p {
+    color: rgba(255,255,255,0.9);
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+}
+  
+  ion-content::part(backdrop) {
+    background: rgba(209, 213, 219);
+    opacity: 1;
+  }
+  
+  ion-content ion-toolbar {
+    --background: rgb(14 116 144);
+    --color: white;
+  }
+
+  .TS{
+    font-size: medium;
+  }
+
+  .headermodal{
+    position: center;
+  }
+
+  .tittle{
+    margin-left: 4%;
+
+  }
+
+  .tittle1{
+    margin-left: 4%;
+    margin-top: 4%;
+
+  }
+
+  .titik{
+    margin-left: -20%;
+  }
+
+  .titik1{
+    margin-left: -20%;
+    margin-top: 4%;
+  }
+
+  .isi1{
+    margin-left: -50%;
+    margin-top: 1%;
+  }
+
+  .isi{
+    margin-left: -50%;
+    margin-top: -3%;
+  }
+
+  .isi2{
+    margin-left: -50%;
+  }
+
+  .mata{
+    color: #285582;
+  }
+  .text{
+    color: white;
+    margin-left: 5px;
+  
+  }
+  
+  .olmata{
+    color: white;
+    margin-bottom: 2px;
+    margin-left: -1px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: none;
+  }
+
+  ion-button {
+    background-color: #285582;
+    color: white;
+  }
+
+  ion-button:hover {
+    background-color: #1e4a7a;
+  }
+
+  ion-card{
+    border-radius: 20px;
+  }

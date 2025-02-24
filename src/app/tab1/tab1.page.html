@@ -1,0 +1,94 @@
+<ion-content>
+  <div class="header-container">
+    <ion-row class="ion-justify-content-center ion-align-items-center">
+      <ion-col size="12" class="ion-text-center header-content">
+        <h1>HKDC</h1>
+        <p>Hinai Kanan Data Center</p>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div class="content-section">
+    <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content></ion-refresher-content>
+    </ion-refresher>
+
+    <!-- Profile Section -->
+    <div class="section profile-section">
+      <div class="profile-info">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        <div class="info-text">
+          <h3>{{ userName }}</h3>
+          <p>Administrator</p>
+        </div>
+      </div>
+      <ion-button (click)="logout()" fill="clear" class="logout-btn">
+        <ion-icon name="log-out-outline"></ion-icon>
+      </ion-button>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="section stats-section">
+      <div class="section-header">
+        <ion-icon name="stats-chart-outline"></ion-icon>
+        <h2>Statistik Penduduk</h2>
+      </div>
+      
+      <div class="stats-grid">
+        <!-- Total Penduduk Card -->
+        <div class="stat-item main">
+          <div class="stat-header">
+            <ion-icon name="people-outline"></ion-icon>
+            <span class="label">Total Penduduk</span>
+          </div>
+          <span class="number">{{ totalPenduduk }}</span>
+        </div>
+
+        <!-- Gender Stats Row -->
+        <div class="stat-item half">
+          <div class="stat-header">
+            <ion-icon name="man-outline"></ion-icon>
+            <span class="label">Laki-laki</span>
+          </div>
+          <span class="number">{{ totalPria }}</span>
+        </div>
+
+        <div class="stat-item half">
+          <div class="stat-header">
+            <ion-icon name="woman-outline"></ion-icon>
+            <span class="label">Perempuan</span>
+          </div>
+          <span class="number">{{ totalWanita }}</span>
+        </div>
+
+        <!-- KK Card -->
+        <div class="stat-item main">
+          <div class="stat-header">
+            <ion-icon name="document-outline"></ion-icon>
+            <span class="label">Kartu Keluarga</span>
+          </div>
+          <span class="number">{{ totalKK }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actions Section -->
+    <div class="section actions-section">
+      <div class="section-header">
+        <ion-icon name="grid-outline"></ion-icon>
+        <h2>Menu Utama</h2>
+      </div>
+      
+      <div class="actions-grid">
+        <a href="/tabs/tab2" class="action-btn">
+          <ion-icon name="list-outline"></ion-icon>
+          <span>Lihat Data</span>
+        </a>
+        <a href="/tabs/tab3" class="action-btn">
+          <ion-icon name="person-add-outline"></ion-icon>
+          <span>Tambah Data</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,50 @@
+<ion-content>
+  <div class="header-section">
+    <h1>Bantuan</h1>
+    <p>Panduan Penggunaan Aplikasi</p>
+  </div>
+
+  <div class="content-section">
+    <!-- Bantuan Section -->
+    <div class="help-section">
+      <div class="help-items">
+        <div class="help-item" *ngFor="let help of helpItems">
+          <div class="help-header">
+            <ion-icon [name]="help.icon"></ion-icon>
+            <h3>{{help.title}}</h3>
+          </div>
+          <p>{{help.description}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="developer-section">
+      <div class="profile-card">
+        <div class="profile-image-center">
+          <img src="https://abijess.my.id/22090075.png" alt="Developer">
+        </div>
+        <div class="profile-details-center">
+          <h3>Muhammad Lil Abidsyah</h3>
+          <span class="role">Full Stack Developer</span>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <a href="https://wa.link/shnh1g" target="_blank" class="social-item">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+        <a href="https://github.com/Xiellchwan" target="_blank" class="social-item">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/abidsyah_/" target="_blank" class="social-item">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <div class="version-section">
+      <p>Version 1.0.0</p>
+      <p>© 2025 Pemrograman Mobile</p>
+    </div>
+  </div>
+</ion-content>

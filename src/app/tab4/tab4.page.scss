@@ -1,0 +1,251 @@
+ion-content{
+  --background: linear-gradient(135deg, #1b3c5b, #3b7a9d, #7eb4d0); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.header-section {
+  padding: 30px 20px;
+  text-align: center;
+  
+  h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  p {
+    color: rgba(255,255,255,0.9);
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+}
+
+.content-section {
+  backdrop-filter: blur(10px);
+  border-radius: 30px 30px 0 0;
+  padding: 30px 20px;
+  min-height: calc(100% - 150px);
+  margin-top: -45px;
+}
+
+.help-section {
+  background: rgba(255,255,255,0.95);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.help-items {
+  display: grid;
+  gap: 15px;
+
+  .help-item {
+    background: rgba(36,77,117,0.1);
+    border-radius: 12px;
+    padding: 15px;
+
+    .help-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      ion-icon {
+        font-size: 24px;
+        color: #244d75;
+        margin-right: 10px;
+      }
+
+      h3 {
+        color: #244d75;
+        font-size: 1.1rem;
+        margin: 0;
+      }
+    }
+
+    p {
+      color: #666;
+      margin: 0;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+  }
+}
+
+.developer-section {
+  background: rgba(255,255,255,0.95);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 25px;
+
+  .profile-card {
+    text-align: center;
+    margin-bottom: 20px;
+
+    .profile-image-center {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 20px;
+      border: 3px solid #244d75;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .profile-details-center {
+      h3 {
+        color: #244d75;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 0 0 5px;
+      }
+
+      .role {
+        color: #666;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  .social-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #244d75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+
+    ion-icon {
+      font-size: 20px;
+      color: white;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.version-section {
+  text-align: center;
+  color: rgba(255,255,255,0.7);
+  margin-top: 30px;
+
+  p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+.app-info {
+  .app-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+    ion-icon {
+      font-size: 24px;
+      color: #244d75;
+      margin-right: 10px;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #244d75;
+      margin: 0;
+    }
+  }
+
+  ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    
+    li {
+      color: #666;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.developer-profile {
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    ion-avatar {
+      width: 80px;
+      height: 80px;
+      margin-right: 15px;
+    }
+
+    .profile-info {
+      h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #244d75;
+        margin: 0 0 5px;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #333;
+        margin: 0 0 5px;
+      }
+
+      p {
+        color: #666;
+        margin: 0;
+      }
+    }
+  }
+
+  .contact-info {
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+
+      ion-icon {
+        font-size: 20px;
+        color: #244d75;
+        margin-right: 10px;
+      }
+
+      p {
+        color: #666;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.version-info {
+  text-align: center;
+  
+  p {
+    color: #666;
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+}
