@@ -1,4 +1,4 @@
-# HKDC - Hinai Kanan Data Center
+# HKDC - Hinai Kanan Data Center 
 
 ## 📌 Tentang Aplikasi
 **HKDC (Hinai Kanan Data Center)** adalah aplikasi berbasis **Ionic Angular** yang dirancang khusus untuk perangkat desa dalam mengelola data penduduk di **Hinai Kanan**. Aplikasi ini memungkinkan pengguna untuk menambah, menghapus, memperbarui data warga, serta menyediakan fitur statistik untuk memantau jumlah penduduk berdasarkan jenis kelamin dan struktur keluarga.
