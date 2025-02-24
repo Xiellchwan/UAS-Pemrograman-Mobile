@@ -37,7 +37,7 @@ Jika Anda ingin berkontribusi dalam pengembangan HKDC, silakan fork repository i
 
 ## 📧 Kontak
 Jika ada pertanyaan atau kendala, silakan hubungi:
-- **Nama**: Abidsyah
+- **Nama**: Muhammad Lil Abidsyah
 - **Email**: lilabid899@gmail.com
 - **GitHub**: [Abidsyah](https://github.com/Abidsyah)
 
