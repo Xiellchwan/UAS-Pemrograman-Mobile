@@ -16,23 +16,6 @@
 - **MySQL phpMyAdmin** (Database)
 - **PHP (Backend dengan action.php)**
 
-## 📥 Instalasi & Konfigurasi
-### 1. Clone Repository
-```bash
-git clone https://github.com/Abidsyah/UAS-Pemrograman-Mobile.git
-cd UAS-Pemrograman-Mobile
-```
-
-### 2. Instalasi Dependencies
-```bash
-npm install
-```
-
-### 3. Jalankan Aplikasi
-```bash
-ionic serve
-```
-
 ## 📌 Cara Penggunaan
 1. **Login sebagai admin**
 2. **Tambahkan data penduduk** melalui menu **Tambah Penduduk**
