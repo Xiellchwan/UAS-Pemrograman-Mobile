@@ -39,7 +39,7 @@ Jika Anda ingin berkontribusi dalam pengembangan HKDC, silakan fork repository i
 Jika ada pertanyaan atau kendala, silakan hubungi:
 - **Nama**: Muhammad Lil Abidsyah
 - **Email**: lilabid899@gmail.com
-- **GitHub**: [Abidsyah](https://github.com/Abidsyah)
+- **GitHub**: .[Muhammad Lil Abidsyah](https://github.com/Xiellchwan)
 
 ---
 **© 2025 HKDC - Hinai Kanan Data Center**
