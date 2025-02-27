@@ -1,96 +1,3 @@
-<!-- <ion-content>
-  <div class="scroll-content">
-    <div class="header">
-      <h2 class="ion-text-center">Tambah Data Penduduk</h2>
-    </div>
-    <div class="ion-padding">
-      <ion-card class="welcome-card bg-content">
-        <ion-list>
-          <ion-input
-           label="Nama"
-           labelPlacement="floating"
-           placeholder="Masukkan Nama"
-           helperText=" "
-           [(ngModel)]="nama">
-          </ion-input>
-          <ion-input 
-           [(ngModel)]="nik" 
-           label="NIK" 
-           labelPlacement="floating" 
-           type="number"
-           [counter]="true" 
-           maxlength="16">
-          </ion-input>
-          <ion-input
-           label="Tempat dan Tanggal lahir"
-           labelPlacement="floating"
-           placeholder="Masukkan Tempat dan Tanggal lahir"
-           helperText=" "
-           [(ngModel)]="tempat_tgl_lahir">
-         </ion-input>
-         <ion-input 
-          type="number" 
-          [(ngModel)]="umur" 
-          helperText=" "
-          label="Umur" 
-          labelPlacement="floating" 
-          placeholder="Masukkan Umur">
-         </ion-input>
-          <ion-item>
-            <ion-select [(ngModel)]="jenis_kelamin" label="Jenis Kelamin">
-              <ion-select-option value="LAKI-LAKI">Laki-Laki</ion-select-option>
-              <ion-select-option value="PEREMPUAN">Perempuan</ion-select-option>
-            </ion-select>
-          </ion-item>
-          <ion-input 
-           [(ngModel)]="alamat" 
-           helperText=" "
-           label="Alamat" 
-           labelPlacement="floating" 
-           placeholder="Masukkan Alamat">
-          </ion-input>
-          <ion-item>
-              <ion-select [(ngModel)]="agama" label-placement="floating" placeholder="Agama" label="Agama">
-                <ion-select-option value="ISLAM">ISLAM</ion-select-option>
-                <ion-select-option value="PROTESTAN">PROTESTAN</ion-select-option>
-                <ion-select-option value="KATOLIK">KATOLIK</ion-select-option>
-                <ion-select-option value="HINDU">HINDU</ion-select-option>
-                <ion-select-option value="BUDHA">BUDHA</ion-select-option>
-                <ion-select-option value="KHONGHUCU">KHONGHUCU</ion-select-option>
-              </ion-select>
-          </ion-item>
-          <ion-item>
-            <ion-select [(ngModel)]="status_kawin" label-placement="floating" label="Status Menikah" placeholder="Status Menikah">
-              <ion-select-option value="SUDAH MENIKAH">Sudah Menikah</ion-select-option>
-              <ion-select-option value="BELUM MENIKAH">Belum Menikah</ion-select-option>
-            </ion-select>
-          </ion-item>
-          <ion-input 
-           [(ngModel)]="pekerjaan" 
-           label="Pekerjaan" 
-           helperText=" " 
-           labelPlacement="floating"
-           placeholder="Masukkan Pekerjaan">
-          </ion-input>
-          <ion-item>
-            <ion-select [(ngModel)]="posisi" label="Posisi">
-              <ion-select-option value="KEPALA KELUARGA">Kepala Keluarga</ion-select-option>
-              <ion-select-option value="ANGGOTA KELUARGA">Anggota Keluarga</ion-select-option>
-            </ion-select>
-          </ion-item>
-    
-        </ion-list>
-        <div padding>
-          <ion-button expand="block" color="primary" size="medium" (click)="addpenduduk()">
-            Simpan Data
-          </ion-button>
-        </div>
-      </ion-card>
-    </div>
-  </div>
-</ion-content>
- -->
-
 <ion-content padding>
   <div class="header">
     <h2 class="ion-text-center">Tambah Data Penduduk</h2>
@@ -178,7 +85,7 @@
         </ion-item>
   
       </ion-list>
-        <ion-button expand="block">
+        <ion-button expand="block" (click)="addpenduduk()">
           Simpan Data
         </ion-button>
     </ion-card-content>
