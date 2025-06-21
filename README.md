@@ -28,7 +28,7 @@
 |-------------------|--------------------|
 | ![Halaman Login](https://abid.rpl22.my.id/gambar/1.jpg) | ![Dashboard Utama](https://abid.rpl22.my.id/gambar/2.jpg) |
 | **Daftar Data Penduduk** | **Form Tambah Data Penduduk** |
-| ![Form Tambah Data Penduduk](https://abid.rpl22.my.id/gambar/3.jpg) | ![Daftar Data Penduduk](https://abid.rpl22.my.id/gambar/4.jpg) |
+| ![Daftar Data Penduduk](https://abid.rpl22.my.id/gambar/3.jpg) | ![Form Tambah Data Penduduk](https://abid.rpl22.my.id/gambar/4.jpg) |
 | **Bantuan dan Profil Developer** | **Form Detail & Edit Penduduk** |
 | ![Statistik Penduduk](https://abid.rpl22.my.id/gambar/5.jpg) | ![Detail Kartu Keluarga](https://abid.rpl22.my.id/gambar/6.jpg) |
 
